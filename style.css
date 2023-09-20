@@ -1,0 +1,182 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    margin: 0px;
+    padding: 0px;
+    background-color: #1F2937;
+}
+
+.content, .bottom {
+    background-color: #F9FAF8;
+}
+
+button, .sign-up {
+    background-color: #3882F6;
+}
+
+.hero, .top, .content, .quote, .bottom, .footer {
+    padding: 0px 200px;
+    justify-content: space-around;
+}
+
+/*HERO*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li { 
+    list-style-type: none;
+    padding: 0px 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*TOP*/
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+} 
+
+.top .left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+button {
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.top button {
+    border: none;
+    margin-top: 24px;
+}
+
+.top img {
+    max-width: 400px;
+    align-self: center;
+}
+
+/*CONTENT*/
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.content img {
+    max-width: 150px;
+    border-radius: 15px;
+    border: #3882F6 3px solid;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 72px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.card {
+    padding: 20px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .text {
+    text-align: center;
+}
+
+/*QUOTE*/
+.quote {
+    background-color: #E5E7EB;
+}
+
+.gap {
+    margin: 72px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    color: #1F2937;
+    text-align: right;
+    margin-top: 12px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+/*BOTTOM*/
+.bottom {
+    padding: 10px;
+}
+
+.sign-up {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 72px 170px;
+    padding: 24px 96px;
+    justify-content: space-between;
+}
+
+.bottom button {
+    border: #F9FAF8 1px solid;
+}
+
+.sign-up .left {
+    padding-right: 20px;
+}
+
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    padding: 24px 200px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
